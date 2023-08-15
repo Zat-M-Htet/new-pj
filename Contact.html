@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafe Bar</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+    <style>
+      
+
+      body {
+        background-color: #3b5441;
+      }
+
+      nav div {
+        margin-bottom: 20px;
+      }
+
+       form div {
+        margin-bottom: 10px;
+      }
+
+      main {
+        margin-left: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div>
+          <ul class="nav-ul">
+            <li class="nav-li">
+              <a href="./index.html" class="active nav-a">
+              <i class="fa-solid fa-house"></i></a>
+            </li class="nav-li">
+            <li class="nav-li"><a class=" nav-a" href="./new.html">Menu</a></li>
+            <li class="nav-li"><a class=" nav-a" href="./service.html">Services</a></li>
+            <li class="nav-li"><a class=" nav-a" href="./about.html">About</a></li>
+            <li class="nav-li"><a class=" nav-a" href="./Contact.html">Contact Us</a></li>
+            <!-- <li>
+              <button class="btn">
+                Search<i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </li> -->
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class=" ">
+        <table>
+          <h3><u>Contact Info</u></h3>
+          <tbody>
+            <tr>
+              <td><i class="fa-solid fa-user"></i></td>
+              <td>Cafe Bar</td>
+            </tr>
+            <tr>
+              <td><i class="fa-brands fa-facebook"></i></td>
+              <td>https://cafe-bar.com</td>
+            </tr>
+            <tr>
+              <td><i class="fa-solid fa-phone"></i></td>
+              <td>09977293330</td>
+            </tr>
+            <tr>
+              <td><i class="fa-solid fa-envelope"></i></td>
+              <td>cafe-bar@gmail.com</td>
+            </tr>
+            <tr>
+              <td><i class="fa-solid fa-house"></i></td>
+              <td>Nay Pyi Taw</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <div>
+        <h3><u>Contact Form</u></h3>
+
+        <form action="">
+          <div>
+            <label class="label-m" for="name">Name</label>
+            <input
+              class="form-div"
+              style="width: 250px; height: 30px"
+              type="text"
+              name="name"
+              id="name"
+            />
+          </div>
+          <div>
+            <label class="label-m" for="phone">Phone</label>
+            <input
+              class="form-div"
+              style="width: 250px; height: 30px"
+              type="text"
+              name="phone"
+              id="phone"
+            />
+          </div>
+          <div>
+            <label class="label-m" for="message">Message</label>
+            <textarea
+              class="form-div"
+              name="message"
+              id="message"
+              cols="30"
+              rows="5"
+            ></textarea>
+          </div>
+
+          <input type="checkbox" name="" id="sure" required />
+          <label for="sure">I'm sure</label>
+
+          <button class="btn-send">Send</button>
+        </form>
+      </div>
+    </main>
+
+    <footer><p>&copy; 2023-2035 | Cafe Bar</p></footer>
+
+
+  
+  </body>
+</html>
